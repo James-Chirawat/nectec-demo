@@ -1,0 +1,77 @@
+{
+    "table_name": "invoice_line",
+    "column_info": [
+        {
+            "column_name": "invoice_line_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "invoice_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "track_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "unit_price",
+            "data_type": "NUMERIC(10, 2)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "quantity",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "invoice_line_id": 1,
+            "invoice_id": 1,
+            "track_id": 2,
+            "unit_price": 0.99,
+            "quantity": 1
+        },
+        {
+            "invoice_line_id": 2,
+            "invoice_id": 1,
+            "track_id": 4,
+            "unit_price": 0.99,
+            "quantity": 1
+        },
+        {
+            "invoice_line_id": 3,
+            "invoice_id": 2,
+            "track_id": 6,
+            "unit_price": 0.99,
+            "quantity": 1
+        },
+        {
+            "invoice_line_id": 4,
+            "invoice_id": 2,
+            "track_id": 8,
+            "unit_price": 0.99,
+            "quantity": 1
+        },
+        {
+            "invoice_line_id": 5,
+            "invoice_id": 2,
+            "track_id": 10,
+            "unit_price": 0.99,
+            "quantity": 1
+        }
+    ]
+}

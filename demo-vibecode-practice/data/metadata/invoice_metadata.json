@@ -1,0 +1,125 @@
+{
+    "table_name": "invoice",
+    "column_info": [
+        {
+            "column_name": "invoice_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "customer_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "invoice_date",
+            "data_type": "TIMESTAMP",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "billing_address",
+            "data_type": "VARCHAR(70)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "billing_city",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "billing_state",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "billing_country",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "billing_postal_code",
+            "data_type": "VARCHAR(10)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "total",
+            "data_type": "NUMERIC(10, 2)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "invoice_id": 1,
+            "customer_id": 2,
+            "invoice_date": "2021-01-01 00:00:00",
+            "billing_address": "Theodor-Heuss-Stra\u00dfe 34",
+            "billing_city": "Stuttgart",
+            "billing_state": null,
+            "billing_country": "Germany",
+            "billing_postal_code": "70174",
+            "total": 1.98
+        },
+        {
+            "invoice_id": 2,
+            "customer_id": 4,
+            "invoice_date": "2021-01-02 00:00:00",
+            "billing_address": "Ullev\u00e5lsveien 14",
+            "billing_city": "Oslo",
+            "billing_state": null,
+            "billing_country": "Norway",
+            "billing_postal_code": "0171",
+            "total": 3.96
+        },
+        {
+            "invoice_id": 3,
+            "customer_id": 8,
+            "invoice_date": "2021-01-03 00:00:00",
+            "billing_address": "Gr\u00e9trystraat 63",
+            "billing_city": "Brussels",
+            "billing_state": null,
+            "billing_country": "Belgium",
+            "billing_postal_code": "1000",
+            "total": 5.94
+        },
+        {
+            "invoice_id": 4,
+            "customer_id": 14,
+            "invoice_date": "2021-01-06 00:00:00",
+            "billing_address": "8210 111 ST NW",
+            "billing_city": "Edmonton",
+            "billing_state": "AB",
+            "billing_country": "Canada",
+            "billing_postal_code": "T6G 2C7",
+            "total": 8.91
+        },
+        {
+            "invoice_id": 5,
+            "customer_id": 23,
+            "invoice_date": "2021-01-11 00:00:00",
+            "billing_address": "69 Salem Street",
+            "billing_city": "Boston",
+            "billing_state": "MA",
+            "billing_country": "USA",
+            "billing_postal_code": "2113",
+            "total": 13.86
+        }
+    ]
+}

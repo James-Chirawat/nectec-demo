@@ -1,0 +1,173 @@
+{
+    "table_name": "customer",
+    "column_info": [
+        {
+            "column_name": "customer_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "first_name",
+            "data_type": "VARCHAR(40)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "last_name",
+            "data_type": "VARCHAR(20)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "company",
+            "data_type": "VARCHAR(80)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "address",
+            "data_type": "VARCHAR(70)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "city",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "state",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "country",
+            "data_type": "VARCHAR(40)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "postal_code",
+            "data_type": "VARCHAR(10)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "phone",
+            "data_type": "VARCHAR(24)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "fax",
+            "data_type": "VARCHAR(24)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "email",
+            "data_type": "VARCHAR(60)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "support_rep_id",
+            "data_type": "INTEGER",
+            "nullable": true,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "customer_id": 1,
+            "first_name": "Lu\u00eds",
+            "last_name": "Gon\u00e7alves",
+            "company": "Embraer - Empresa Brasileira de Aeron\u00e1utica S.A.",
+            "address": "Av. Brigadeiro Faria Lima, 2170",
+            "city": "S\u00e3o Jos\u00e9 dos Campos",
+            "state": "SP",
+            "country": "Brazil",
+            "postal_code": "12227-000",
+            "phone": "+55 (12) 3923-5555",
+            "fax": "+55 (12) 3923-5566",
+            "email": "luisg@embraer.com.br",
+            "support_rep_id": 3
+        },
+        {
+            "customer_id": 2,
+            "first_name": "Leonie",
+            "last_name": "K\u00f6hler",
+            "company": null,
+            "address": "Theodor-Heuss-Stra\u00dfe 34",
+            "city": "Stuttgart",
+            "state": null,
+            "country": "Germany",
+            "postal_code": "70174",
+            "phone": "+49 0711 2842222",
+            "fax": null,
+            "email": "leonekohler@surfeu.de",
+            "support_rep_id": 5
+        },
+        {
+            "customer_id": 3,
+            "first_name": "Fran\u00e7ois",
+            "last_name": "Tremblay",
+            "company": null,
+            "address": "1498 rue B\u00e9langer",
+            "city": "Montr\u00e9al",
+            "state": "QC",
+            "country": "Canada",
+            "postal_code": "H2G 1A7",
+            "phone": "+1 (514) 721-4711",
+            "fax": null,
+            "email": "ftremblay@gmail.com",
+            "support_rep_id": 3
+        },
+        {
+            "customer_id": 4,
+            "first_name": "Bj\u00f8rn",
+            "last_name": "Hansen",
+            "company": null,
+            "address": "Ullev\u00e5lsveien 14",
+            "city": "Oslo",
+            "state": null,
+            "country": "Norway",
+            "postal_code": "0171",
+            "phone": "+47 22 44 22 22",
+            "fax": null,
+            "email": "bjorn.hansen@yahoo.no",
+            "support_rep_id": 4
+        },
+        {
+            "customer_id": 5,
+            "first_name": "Franti\u0161ek",
+            "last_name": "Wichterlov\u00e1",
+            "company": "JetBrains s.r.o.",
+            "address": "Klanova 9/506",
+            "city": "Prague",
+            "state": null,
+            "country": "Czech Republic",
+            "postal_code": "14700",
+            "phone": "+420 2 4172 5555",
+            "fax": "+420 2 4172 5555",
+            "email": "frantisekw@jetbrains.com",
+            "support_rep_id": 4
+        }
+    ]
+}

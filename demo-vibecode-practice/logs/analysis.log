@@ -1,0 +1,101 @@
+2026-01-31 21:41:16,244 - INFO - Analyzing table: album
+2026-01-31 21:41:16,263 - INFO - Analysis complete for album
+2026-01-31 21:41:16,263 - INFO - Analyzing table: artist
+2026-01-31 21:41:16,267 - INFO - Analysis complete for artist
+2026-01-31 21:41:16,267 - INFO - Analyzing table: customer
+2026-01-31 21:41:16,273 - INFO - Analysis complete for customer
+2026-01-31 21:41:16,273 - INFO - Analyzing table: employee
+2026-01-31 21:41:16,279 - INFO - Analysis complete for employee
+2026-01-31 21:41:16,279 - INFO - Analyzing table: genre
+2026-01-31 21:41:16,283 - INFO - Analysis complete for genre
+2026-01-31 21:41:16,283 - INFO - Analyzing table: invoice
+2026-01-31 21:41:16,291 - INFO - Analysis complete for invoice
+2026-01-31 21:41:16,297 - INFO - Analyzing table: invoice_line
+2026-01-31 21:41:16,306 - INFO - Analysis complete for invoice_line
+2026-01-31 21:41:16,306 - INFO - Analyzing table: media_type
+2026-01-31 21:41:16,309 - INFO - Analysis complete for media_type
+2026-01-31 21:41:16,309 - INFO - Analyzing table: playlist
+2026-01-31 21:41:16,313 - INFO - Analysis complete for playlist
+2026-01-31 21:41:16,313 - INFO - Analyzing table: playlist_track
+2026-01-31 21:41:16,320 - INFO - Analysis complete for playlist_track
+2026-01-31 21:41:16,320 - INFO - Analyzing table: track
+2026-01-31 21:41:16,341 - INFO - Analysis complete for track
+2026-01-31 21:41:16,344 - INFO - All analysis results saved to data/analysis_results.json
+2026-01-31 21:49:23,950 - INFO - Analyzing table: album
+2026-01-31 21:49:23,961 - INFO - Analysis complete for album
+2026-01-31 21:49:23,962 - INFO - Analyzing table: artist
+2026-01-31 21:49:23,965 - INFO - Analysis complete for artist
+2026-01-31 21:49:23,965 - INFO - Analyzing table: customer
+2026-01-31 21:49:23,971 - INFO - Analysis complete for customer
+2026-01-31 21:49:23,971 - INFO - Analyzing table: employee
+2026-01-31 21:49:23,976 - INFO - Analysis complete for employee
+2026-01-31 21:49:23,977 - INFO - Analyzing table: genre
+2026-01-31 21:49:23,981 - INFO - Analysis complete for genre
+2026-01-31 21:49:23,981 - INFO - Analyzing table: invoice
+2026-01-31 21:49:23,989 - INFO - Analysis complete for invoice
+2026-01-31 21:49:23,989 - INFO - Analyzing table: invoice_line
+2026-01-31 21:49:24,000 - INFO - Analysis complete for invoice_line
+2026-01-31 21:49:24,000 - INFO - Analyzing table: media_type
+2026-01-31 21:49:24,003 - INFO - Analysis complete for media_type
+2026-01-31 21:49:24,003 - INFO - Analyzing table: playlist
+2026-01-31 21:49:24,007 - INFO - Analysis complete for playlist
+2026-01-31 21:49:24,007 - INFO - Analyzing table: playlist_track
+2026-01-31 21:49:24,014 - INFO - Analysis complete for playlist_track
+2026-01-31 21:49:24,014 - INFO - Analyzing table: track
+2026-01-31 21:49:24,033 - INFO - Analysis complete for track
+2026-01-31 21:49:24,103 - INFO - Running target query 1
+2026-01-31 21:49:24,174 - INFO - Running target query 2
+2026-01-31 21:49:24,180 - INFO - Running target query 3
+2026-01-31 21:49:24,192 - INFO - Target analysis results saved.
+2026-01-31 21:49:24,192 - INFO - All analysis complete.
+2026-01-31 21:50:19,622 - INFO - Analyzing table: album
+2026-01-31 21:50:19,635 - INFO - Analyzing table: artist
+2026-01-31 21:50:19,639 - INFO - Analyzing table: customer
+2026-01-31 21:50:19,644 - INFO - Analyzing table: employee
+2026-01-31 21:50:19,650 - INFO - Analyzing table: genre
+2026-01-31 21:50:19,653 - INFO - Analyzing table: invoice
+2026-01-31 21:50:19,661 - INFO - Analyzing table: invoice_line
+2026-01-31 21:50:19,670 - INFO - Analyzing table: media_type
+2026-01-31 21:50:19,674 - INFO - Analyzing table: playlist
+2026-01-31 21:50:19,677 - INFO - Analyzing table: playlist_track
+2026-01-31 21:50:19,683 - INFO - Analyzing table: track
+2026-01-31 21:50:19,770 - INFO - Executing query: top_albums
+2026-01-31 21:50:19,823 - INFO - Executing query: revenue_by_country
+2026-01-31 21:50:19,830 - INFO - Executing query: employee_hierarchy
+2026-01-31 21:50:19,840 - INFO - All analysis results saved to data/analysis_results.json
+2026-01-31 21:53:03,839 - INFO - Analyzing table: album
+2026-01-31 21:53:03,851 - INFO - Analyzing table: artist
+2026-01-31 21:53:03,857 - INFO - Analyzing table: customer
+2026-01-31 21:53:03,864 - INFO - Analyzing table: employee
+2026-01-31 21:53:03,871 - INFO - Analyzing table: genre
+2026-01-31 21:53:03,874 - INFO - Analyzing table: invoice
+2026-01-31 21:53:03,881 - INFO - Analyzing table: invoice_line
+2026-01-31 21:53:03,893 - INFO - Analyzing table: media_type
+2026-01-31 21:53:03,896 - INFO - Analyzing table: playlist
+2026-01-31 21:53:03,900 - INFO - Analyzing table: playlist_track
+2026-01-31 21:53:03,907 - INFO - Analyzing table: track
+2026-01-31 21:53:04,002 - INFO - Executing query: top_albums
+2026-01-31 21:53:04,060 - INFO - Executing query: revenue_by_country
+2026-01-31 21:53:04,068 - INFO - Executing query: employee_hierarchy
+2026-01-31 21:53:04,074 - INFO - Performing customer clustering...
+2026-01-31 21:53:09,553 - INFO - Customer clustering complete.
+2026-01-31 21:53:09,558 - INFO - All analysis results saved to data/analysis_results.json
+2026-01-31 21:56:23,844 - INFO - Analyzing table: album
+2026-01-31 21:56:23,860 - INFO - Analyzing table: artist
+2026-01-31 21:56:23,863 - INFO - Analyzing table: customer
+2026-01-31 21:56:23,871 - INFO - Analyzing table: employee
+2026-01-31 21:56:23,876 - INFO - Analyzing table: genre
+2026-01-31 21:56:23,881 - INFO - Analyzing table: invoice
+2026-01-31 21:56:23,889 - INFO - Analyzing table: invoice_line
+2026-01-31 21:56:23,899 - INFO - Analyzing table: media_type
+2026-01-31 21:56:23,903 - INFO - Analyzing table: playlist
+2026-01-31 21:56:23,908 - INFO - Analyzing table: playlist_track
+2026-01-31 21:56:23,919 - INFO - Analyzing table: track
+2026-01-31 21:56:24,024 - INFO - Executing query: top_albums
+2026-01-31 21:56:24,087 - INFO - Executing query: revenue_by_country
+2026-01-31 21:56:24,092 - INFO - Executing query: employee_hierarchy
+2026-01-31 21:56:24,100 - INFO - Performing customer clustering...
+2026-01-31 21:56:28,253 - INFO - Customer clustering complete.
+2026-01-31 21:56:28,253 - INFO - Training LightGBM model...
+2026-01-31 21:56:28,278 - INFO - LightGBM training complete.
+2026-01-31 21:56:28,284 - INFO - All analysis results saved to data/analysis_results.json

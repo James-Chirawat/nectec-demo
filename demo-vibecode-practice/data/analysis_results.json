@@ -1,0 +1,1107 @@
+{
+    "basic_eda": {
+        "album": {
+            "row_count": 347,
+            "column_count": 3,
+            "missing_values": {
+                "album_id": 0,
+                "title": 0,
+                "artist_id": 0
+            },
+            "numeric_summary": {
+                "album_id": {
+                    "count": 347.0,
+                    "mean": 174.0,
+                    "std": 100.31450543166726,
+                    "min": 1.0,
+                    "25%": 87.5,
+                    "50%": 174.0,
+                    "75%": 260.5,
+                    "max": 347.0
+                },
+                "artist_id": {
+                    "count": 347.0,
+                    "mean": 121.94236311239193,
+                    "std": 77.79313102621585,
+                    "min": 1.0,
+                    "25%": 58.0,
+                    "50%": 112.0,
+                    "75%": 179.5,
+                    "max": 275.0
+                }
+            },
+            "column_types": {
+                "album_id": "int64",
+                "title": "object",
+                "artist_id": "int64"
+            }
+        },
+        "artist": {
+            "row_count": 275,
+            "column_count": 2,
+            "missing_values": {
+                "artist_id": 0,
+                "name": 0
+            },
+            "numeric_summary": {
+                "artist_id": {
+                    "count": 275.0,
+                    "mean": 138.0,
+                    "std": 79.52986860293433,
+                    "min": 1.0,
+                    "25%": 69.5,
+                    "50%": 138.0,
+                    "75%": 206.5,
+                    "max": 275.0
+                }
+            },
+            "column_types": {
+                "artist_id": "int64",
+                "name": "object"
+            }
+        },
+        "customer": {
+            "row_count": 59,
+            "column_count": 13,
+            "missing_values": {
+                "customer_id": 0,
+                "first_name": 0,
+                "last_name": 0,
+                "company": 49,
+                "address": 0,
+                "city": 0,
+                "state": 29,
+                "country": 0,
+                "postal_code": 4,
+                "phone": 1,
+                "fax": 47,
+                "email": 0,
+                "support_rep_id": 0
+            },
+            "numeric_summary": {
+                "customer_id": {
+                    "count": 59.0,
+                    "mean": 30.0,
+                    "std": 17.175564037317667,
+                    "min": 1.0,
+                    "25%": 15.5,
+                    "50%": 30.0,
+                    "75%": 44.5,
+                    "max": 59.0
+                },
+                "support_rep_id": {
+                    "count": 59.0,
+                    "mean": 3.9491525423728815,
+                    "std": 0.8184031721539823,
+                    "min": 3.0,
+                    "25%": 3.0,
+                    "50%": 4.0,
+                    "75%": 5.0,
+                    "max": 5.0
+                }
+            },
+            "column_types": {
+                "customer_id": "int64",
+                "first_name": "object",
+                "last_name": "object",
+                "company": "object",
+                "address": "object",
+                "city": "object",
+                "state": "object",
+                "country": "object",
+                "postal_code": "object",
+                "phone": "object",
+                "fax": "object",
+                "email": "object",
+                "support_rep_id": "int64"
+            }
+        },
+        "employee": {
+            "row_count": 8,
+            "column_count": 15,
+            "missing_values": {
+                "employee_id": 0,
+                "last_name": 0,
+                "first_name": 0,
+                "title": 0,
+                "reports_to": 1,
+                "birth_date": 0,
+                "hire_date": 0,
+                "address": 0,
+                "city": 0,
+                "state": 0,
+                "country": 0,
+                "postal_code": 0,
+                "phone": 0,
+                "fax": 0,
+                "email": 0
+            },
+            "numeric_summary": {
+                "employee_id": {
+                    "count": 8.0,
+                    "mean": 4.5,
+                    "std": 2.449489742783178,
+                    "min": 1.0,
+                    "25%": 2.75,
+                    "50%": 4.5,
+                    "75%": 6.25,
+                    "max": 8.0
+                },
+                "reports_to": {
+                    "count": 7.0,
+                    "mean": 2.857142857142857,
+                    "std": 2.193062655175134,
+                    "min": 1.0,
+                    "25%": 1.5,
+                    "50%": 2.0,
+                    "75%": 4.0,
+                    "max": 6.0
+                }
+            },
+            "column_types": {
+                "employee_id": "int64",
+                "last_name": "object",
+                "first_name": "object",
+                "title": "object",
+                "reports_to": "float64",
+                "birth_date": "object",
+                "hire_date": "object",
+                "address": "object",
+                "city": "object",
+                "state": "object",
+                "country": "object",
+                "postal_code": "object",
+                "phone": "object",
+                "fax": "object",
+                "email": "object"
+            }
+        },
+        "genre": {
+            "row_count": 25,
+            "column_count": 2,
+            "missing_values": {
+                "genre_id": 0,
+                "name": 0
+            },
+            "numeric_summary": {
+                "genre_id": {
+                    "count": 25.0,
+                    "mean": 13.0,
+                    "std": 7.359800721939872,
+                    "min": 1.0,
+                    "25%": 7.0,
+                    "50%": 13.0,
+                    "75%": 19.0,
+                    "max": 25.0
+                }
+            },
+            "column_types": {
+                "genre_id": "int64",
+                "name": "object"
+            }
+        },
+        "invoice": {
+            "row_count": 412,
+            "column_count": 9,
+            "missing_values": {
+                "invoice_id": 0,
+                "customer_id": 0,
+                "invoice_date": 0,
+                "billing_address": 0,
+                "billing_city": 0,
+                "billing_state": 202,
+                "billing_country": 0,
+                "billing_postal_code": 28,
+                "total": 0
+            },
+            "numeric_summary": {
+                "invoice_id": {
+                    "count": 412.0,
+                    "mean": 206.5,
+                    "std": 119.07840554301467,
+                    "min": 1.0,
+                    "25%": 103.75,
+                    "50%": 206.5,
+                    "75%": 309.25,
+                    "max": 412.0
+                },
+                "customer_id": {
+                    "count": 412.0,
+                    "mean": 29.929611650485437,
+                    "std": 17.010584849707833,
+                    "min": 1.0,
+                    "25%": 15.0,
+                    "50%": 30.0,
+                    "75%": 45.0,
+                    "max": 59.0
+                },
+                "total": {
+                    "count": 412.0,
+                    "mean": 5.651941747572814,
+                    "std": 4.745319693568107,
+                    "min": 0.99,
+                    "25%": 1.98,
+                    "50%": 3.96,
+                    "75%": 8.91,
+                    "max": 25.86
+                }
+            },
+            "column_types": {
+                "invoice_id": "int64",
+                "customer_id": "int64",
+                "invoice_date": "object",
+                "billing_address": "object",
+                "billing_city": "object",
+                "billing_state": "object",
+                "billing_country": "object",
+                "billing_postal_code": "object",
+                "total": "float64"
+            }
+        },
+        "invoice_line": {
+            "row_count": 2240,
+            "column_count": 5,
+            "missing_values": {
+                "invoice_line_id": 0,
+                "invoice_id": 0,
+                "track_id": 0,
+                "unit_price": 0,
+                "quantity": 0
+            },
+            "numeric_summary": {
+                "invoice_line_id": {
+                    "count": 2240.0,
+                    "mean": 1120.5,
+                    "std": 646.7766229541695,
+                    "min": 1.0,
+                    "25%": 560.75,
+                    "50%": 1120.5,
+                    "75%": 1680.25,
+                    "max": 2240.0
+                },
+                "invoice_id": {
+                    "count": 2240.0,
+                    "mean": 206.86875,
+                    "std": 119.1348772915434,
+                    "min": 1.0,
+                    "25%": 103.0,
+                    "50%": 207.0,
+                    "75%": 311.0,
+                    "max": 412.0
+                },
+                "track_id": {
+                    "count": 2240.0,
+                    "mean": 1717.734375,
+                    "std": 993.7979991589124,
+                    "min": 1.0,
+                    "25%": 874.0,
+                    "50%": 1708.0,
+                    "75%": 2560.0,
+                    "max": 3500.0
+                },
+                "unit_price": {
+                    "count": 2240.0,
+                    "mean": 1.0395535714285715,
+                    "std": 0.21706922922779123,
+                    "min": 0.99,
+                    "25%": 0.99,
+                    "50%": 0.99,
+                    "75%": 0.99,
+                    "max": 1.99
+                },
+                "quantity": {
+                    "count": 2240.0,
+                    "mean": 1.0,
+                    "std": 0.0,
+                    "min": 1.0,
+                    "25%": 1.0,
+                    "50%": 1.0,
+                    "75%": 1.0,
+                    "max": 1.0
+                }
+            },
+            "column_types": {
+                "invoice_line_id": "int64",
+                "invoice_id": "int64",
+                "track_id": "int64",
+                "unit_price": "float64",
+                "quantity": "int64"
+            }
+        },
+        "media_type": {
+            "row_count": 5,
+            "column_count": 2,
+            "missing_values": {
+                "media_type_id": 0,
+                "name": 0
+            },
+            "numeric_summary": {
+                "media_type_id": {
+                    "count": 5.0,
+                    "mean": 3.0,
+                    "std": 1.5811388300841898,
+                    "min": 1.0,
+                    "25%": 2.0,
+                    "50%": 3.0,
+                    "75%": 4.0,
+                    "max": 5.0
+                }
+            },
+            "column_types": {
+                "media_type_id": "int64",
+                "name": "object"
+            }
+        },
+        "playlist": {
+            "row_count": 18,
+            "column_count": 2,
+            "missing_values": {
+                "playlist_id": 0,
+                "name": 0
+            },
+            "numeric_summary": {
+                "playlist_id": {
+                    "count": 18.0,
+                    "mean": 9.5,
+                    "std": 5.338539126015656,
+                    "min": 1.0,
+                    "25%": 5.25,
+                    "50%": 9.5,
+                    "75%": 13.75,
+                    "max": 18.0
+                }
+            },
+            "column_types": {
+                "playlist_id": "int64",
+                "name": "object"
+            }
+        },
+        "playlist_track": {
+            "row_count": 8715,
+            "column_count": 2,
+            "missing_values": {
+                "playlist_id": 0,
+                "track_id": 0
+            },
+            "numeric_summary": {
+                "playlist_id": {
+                    "count": 8715.0,
+                    "mean": 4.917039586919105,
+                    "std": 3.4764531312539884,
+                    "min": 1.0,
+                    "25%": 1.0,
+                    "50%": 5.0,
+                    "75%": 8.0,
+                    "max": 18.0
+                },
+                "track_id": {
+                    "count": 8715.0,
+                    "mean": 1767.0816982214571,
+                    "std": 1023.6692860428041,
+                    "min": 1.0,
+                    "25%": 888.0,
+                    "50%": 1773.0,
+                    "75%": 2652.0,
+                    "max": 3503.0
+                }
+            },
+            "column_types": {
+                "playlist_id": "int64",
+                "track_id": "int64"
+            }
+        },
+        "track": {
+            "row_count": 3503,
+            "column_count": 9,
+            "missing_values": {
+                "track_id": 0,
+                "name": 0,
+                "album_id": 0,
+                "media_type_id": 0,
+                "genre_id": 0,
+                "composer": 977,
+                "milliseconds": 0,
+                "bytes": 0,
+                "unit_price": 0
+            },
+            "numeric_summary": {
+                "track_id": {
+                    "count": 3503.0,
+                    "mean": 1752.0,
+                    "std": 1011.3733237534002,
+                    "min": 1.0,
+                    "25%": 876.5,
+                    "50%": 1752.0,
+                    "75%": 2627.5,
+                    "max": 3503.0
+                },
+                "album_id": {
+                    "count": 3503.0,
+                    "mean": 140.9294890094205,
+                    "std": 81.77539475104433,
+                    "min": 1.0,
+                    "25%": 70.5,
+                    "50%": 141.0,
+                    "75%": 212.0,
+                    "max": 347.0
+                },
+                "media_type_id": {
+                    "count": 3503.0,
+                    "mean": 1.2083928061661433,
+                    "std": 0.5804430384891611,
+                    "min": 1.0,
+                    "25%": 1.0,
+                    "50%": 1.0,
+                    "75%": 1.0,
+                    "max": 5.0
+                },
+                "genre_id": {
+                    "count": 3503.0,
+                    "mean": 5.725378247216671,
+                    "std": 6.190203703780303,
+                    "min": 1.0,
+                    "25%": 1.0,
+                    "50%": 3.0,
+                    "75%": 7.0,
+                    "max": 25.0
+                },
+                "milliseconds": {
+                    "count": 3503.0,
+                    "mean": 393599.2121039109,
+                    "std": 535005.4352066235,
+                    "min": 1071.0,
+                    "25%": 207281.0,
+                    "50%": 255634.0,
+                    "75%": 321645.0,
+                    "max": 5286953.0
+                },
+                "bytes": {
+                    "count": 3503.0,
+                    "mean": 33510207.065372538,
+                    "std": 105392533.66476329,
+                    "min": 38747.0,
+                    "25%": 6342566.0,
+                    "50%": 8107896.0,
+                    "75%": 10266789.5,
+                    "max": 1059546140.0
+                },
+                "unit_price": {
+                    "count": 3503.0,
+                    "mean": 1.0508050242649158,
+                    "std": 0.2390064444263366,
+                    "min": 0.99,
+                    "25%": 0.99,
+                    "50%": 0.99,
+                    "75%": 0.99,
+                    "max": 1.99
+                }
+            },
+            "column_types": {
+                "track_id": "int64",
+                "name": "object",
+                "album_id": "int64",
+                "media_type_id": "int64",
+                "genre_id": "int64",
+                "composer": "object",
+                "milliseconds": "int64",
+                "bytes": "int64",
+                "unit_price": "float64"
+            }
+        }
+    },
+    "target_analysis": {
+        "top_albums": [
+            {
+                "title": "Greatest Hits",
+                "album_value": 56.43
+            },
+            {
+                "title": "Lost, Season 3",
+                "album_value": 51.74
+            },
+            {
+                "title": "Lost, Season 1",
+                "album_value": 49.75
+            },
+            {
+                "title": "The Office, Season 3",
+                "album_value": 49.75
+            },
+            {
+                "title": "Lost, Season 2",
+                "album_value": 47.76
+            }
+        ],
+        "revenue_by_country": [
+            {
+                "billing_country": "USA",
+                "total_revenue": 523.06,
+                "sales_count": 91
+            },
+            {
+                "billing_country": "Canada",
+                "total_revenue": 303.96,
+                "sales_count": 56
+            },
+            {
+                "billing_country": "France",
+                "total_revenue": 195.1,
+                "sales_count": 35
+            },
+            {
+                "billing_country": "Brazil",
+                "total_revenue": 190.1,
+                "sales_count": 35
+            },
+            {
+                "billing_country": "Germany",
+                "total_revenue": 156.48,
+                "sales_count": 28
+            },
+            {
+                "billing_country": "United Kingdom",
+                "total_revenue": 112.86,
+                "sales_count": 21
+            },
+            {
+                "billing_country": "Czech Republic",
+                "total_revenue": 90.24,
+                "sales_count": 14
+            },
+            {
+                "billing_country": "Portugal",
+                "total_revenue": 77.24,
+                "sales_count": 14
+            },
+            {
+                "billing_country": "India",
+                "total_revenue": 75.26,
+                "sales_count": 13
+            },
+            {
+                "billing_country": "Chile",
+                "total_revenue": 46.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Ireland",
+                "total_revenue": 45.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Hungary",
+                "total_revenue": 45.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Austria",
+                "total_revenue": 42.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Finland",
+                "total_revenue": 41.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Netherlands",
+                "total_revenue": 40.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Norway",
+                "total_revenue": 39.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Sweden",
+                "total_revenue": 38.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Argentina",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Belgium",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Poland",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Australia",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Italy",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Denmark",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Spain",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            }
+        ],
+        "employee_hierarchy": [
+            {
+                "employee": "Andrew Adams",
+                "reports_to_manager": null
+            },
+            {
+                "employee": "Nancy Edwards",
+                "reports_to_manager": "Andrew Adams"
+            },
+            {
+                "employee": "Jane Peacock",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Margaret Park",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Steve Johnson",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Michael Mitchell",
+                "reports_to_manager": "Andrew Adams"
+            },
+            {
+                "employee": "Robert King",
+                "reports_to_manager": "Michael Mitchell"
+            },
+            {
+                "employee": "Laura Callahan",
+                "reports_to_manager": "Michael Mitchell"
+            }
+        ],
+        "customer_clusters": [
+            {
+                "customer_id": 29,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 54,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 4,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 34,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 51,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 52,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 10,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 35,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 45,
+                "total_invoices": 7,
+                "total_spent": 45.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 6,
+                "total_invoices": 7,
+                "total_spent": 49.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 39,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 36,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 31,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 50,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 14,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 22,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 59,
+                "total_invoices": 6,
+                "total_spent": 36.64,
+                "cluster": 1
+            },
+            {
+                "customer_id": 13,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 2,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 16,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 11,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 44,
+                "total_invoices": 7,
+                "total_spent": 41.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 42,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 41,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 46,
+                "total_invoices": 7,
+                "total_spent": 45.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 40,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 43,
+                "total_invoices": 7,
+                "total_spent": 40.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 32,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 53,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 7,
+                "total_invoices": 7,
+                "total_spent": 42.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 9,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 38,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 15,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 26,
+                "total_invoices": 7,
+                "total_spent": 47.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 12,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 48,
+                "total_invoices": 7,
+                "total_spent": 40.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 24,
+                "total_invoices": 7,
+                "total_spent": 43.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 57,
+                "total_invoices": 7,
+                "total_spent": 46.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 19,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 25,
+                "total_invoices": 7,
+                "total_spent": 42.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 30,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 21,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 49,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 47,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 3,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 17,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 20,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 28,
+                "total_invoices": 7,
+                "total_spent": 43.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 37,
+                "total_invoices": 7,
+                "total_spent": 43.62,
+                "cluster": 2
+            },
+            {
+                "customer_id": 33,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 1,
+                "total_invoices": 7,
+                "total_spent": 39.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 5,
+                "total_invoices": 7,
+                "total_spent": 40.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 18,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 55,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 27,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 23,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 56,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 58,
+                "total_invoices": 7,
+                "total_spent": 38.62,
+                "cluster": 0
+            },
+            {
+                "customer_id": 8,
+                "total_invoices": 7,
+                "total_spent": 37.62,
+                "cluster": 0
+            }
+        ],
+        "prediction_results": {
+            "r2_score": -0.40882547847644735,
+            "mse": 3.991672189016601,
+            "feature_importance": {
+                "country_code": 100,
+                "support_rep_id": 0,
+                "total_invoices": 0
+            },
+            "actual_vs_pred": [
+                {
+                    "actual": 37.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.736011699837775
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.736011699837775
+                },
+                {
+                    "actual": 39.62,
+                    "predicted": 39.736011699837775
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 38.62,
+                    "predicted": 39.736011699837775
+                },
+                {
+                    "actual": 38.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 43.62,
+                    "predicted": 39.736011699837775
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 37.62,
+                    "predicted": 39.6907831393032
+                },
+                {
+                    "actual": 39.62,
+                    "predicted": 39.736011699837775
+                }
+            ]
+        }
+    }
+}

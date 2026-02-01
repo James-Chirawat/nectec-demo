@@ -1,0 +1,41 @@
+{
+    "table_name": "genre",
+    "column_info": [
+        {
+            "column_name": "genre_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "name",
+            "data_type": "VARCHAR(120)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "genre_id": 1,
+            "name": "Rock"
+        },
+        {
+            "genre_id": 2,
+            "name": "Jazz"
+        },
+        {
+            "genre_id": 3,
+            "name": "Metal"
+        },
+        {
+            "genre_id": 4,
+            "name": "Alternative & Punk"
+        },
+        {
+            "genre_id": 5,
+            "name": "Rock And Roll"
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "table_name": "track",
+    "column_info": [
+        {
+            "column_name": "track_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "name",
+            "data_type": "VARCHAR(200)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "album_id",
+            "data_type": "INTEGER",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "media_type_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "genre_id",
+            "data_type": "INTEGER",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "composer",
+            "data_type": "VARCHAR(220)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "milliseconds",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "bytes",
+            "data_type": "INTEGER",
+            "nullable": true,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "unit_price",
+            "data_type": "NUMERIC(10, 2)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "track_id": 1,
+            "name": "For Those About To Rock (We Salute You)",
+            "album_id": 1,
+            "media_type_id": 1,
+            "genre_id": 1,
+            "composer": "Angus Young, Malcolm Young, Brian Johnson",
+            "milliseconds": 343719,
+            "bytes": 11170334,
+            "unit_price": 0.99
+        },
+        {
+            "track_id": 2,
+            "name": "Balls to the Wall",
+            "album_id": 2,
+            "media_type_id": 2,
+            "genre_id": 1,
+            "composer": "U. Dirkschneider, W. Hoffmann, H. Frank, P. Baltes, S. Kaufmann, G. Hoffmann",
+            "milliseconds": 342562,
+            "bytes": 5510424,
+            "unit_price": 0.99
+        },
+        {
+            "track_id": 3,
+            "name": "Fast As a Shark",
+            "album_id": 3,
+            "media_type_id": 2,
+            "genre_id": 1,
+            "composer": "F. Baltes, S. Kaufman, U. Dirkscneider & W. Hoffman",
+            "milliseconds": 230619,
+            "bytes": 3990994,
+            "unit_price": 0.99
+        },
+        {
+            "track_id": 4,
+            "name": "Restless and Wild",
+            "album_id": 3,
+            "media_type_id": 2,
+            "genre_id": 1,
+            "composer": "F. Baltes, R.A. Smith-Diesel, S. Kaufman, U. Dirkscneider & W. Hoffman",
+            "milliseconds": 252051,
+            "bytes": 4331779,
+            "unit_price": 0.99
+        },
+        {
+            "track_id": 5,
+            "name": "Princess of the Dawn",
+            "album_id": 3,
+            "media_type_id": 2,
+            "genre_id": 1,
+            "composer": "Deaffy & R.A. Smith-Diesel",
+            "milliseconds": 375418,
+            "bytes": 6290521,
+            "unit_price": 0.99
+        }
+    ]
+}

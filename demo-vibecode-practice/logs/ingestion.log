@@ -1,0 +1,39 @@
+2026-01-31 21:32:43,758 - ERROR - Error during ingestion: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-01-31 21:37:27,000 - INFO - Connected to database. Found tables: []
+2026-01-31 21:37:58,161 - INFO - Available schemas: ['information_schema', 'public']
+2026-01-31 21:37:58,175 - INFO - Connected to database. Found tables: []
+2026-01-31 21:40:43,555 - INFO - Connected to database. Found tables: ['artist', 'album', 'employee', 'customer', 'invoice', 'invoice_line', 'track', 'playlist', 'playlist_track', 'genre', 'media_type']
+2026-01-31 21:40:43,556 - INFO - Ingesting table: artist
+2026-01-31 21:40:43,697 - INFO - Successfully ingested artist
+2026-01-31 21:40:43,697 - INFO - Ingesting table: album
+2026-01-31 21:40:43,771 - INFO - Successfully ingested album
+2026-01-31 21:40:43,771 - INFO - Ingesting table: employee
+2026-01-31 21:40:43,823 - ERROR - Error during ingestion: Object of type Timestamp is not JSON serializable
+2026-01-31 21:41:13,064 - INFO - Connected to database. Found tables: ['artist', 'album', 'employee', 'customer', 'invoice', 'invoice_line', 'track', 'playlist', 'playlist_track', 'genre', 'media_type']
+2026-01-31 21:41:13,064 - INFO - Ingesting table: artist
+2026-01-31 21:41:13,187 - INFO - Successfully ingested artist
+2026-01-31 21:41:13,187 - INFO - Ingesting table: album
+2026-01-31 21:41:13,254 - INFO - Successfully ingested album
+2026-01-31 21:41:13,256 - INFO - Ingesting table: employee
+2026-01-31 21:41:13,309 - INFO - Successfully ingested employee
+2026-01-31 21:41:13,309 - INFO - Ingesting table: customer
+2026-01-31 21:41:13,383 - INFO - Successfully ingested customer
+2026-01-31 21:41:13,383 - INFO - Ingesting table: invoice
+2026-01-31 21:41:13,495 - INFO - Successfully ingested invoice
+2026-01-31 21:41:13,496 - INFO - Ingesting table: invoice_line
+2026-01-31 21:41:13,765 - INFO - Successfully ingested invoice_line
+2026-01-31 21:41:13,765 - INFO - Ingesting table: track
+2026-01-31 21:41:13,940 - INFO - Successfully ingested track
+2026-01-31 21:41:13,940 - INFO - Ingesting table: playlist
+2026-01-31 21:41:13,989 - INFO - Successfully ingested playlist
+2026-01-31 21:41:13,989 - INFO - Ingesting table: playlist_track
+2026-01-31 21:41:14,201 - INFO - Successfully ingested playlist_track
+2026-01-31 21:41:14,201 - INFO - Ingesting table: genre
+2026-01-31 21:41:14,247 - INFO - Successfully ingested genre
+2026-01-31 21:41:14,247 - INFO - Ingesting table: media_type
+2026-01-31 21:41:14,289 - INFO - Successfully ingested media_type

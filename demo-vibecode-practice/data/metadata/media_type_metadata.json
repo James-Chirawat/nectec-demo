@@ -1,0 +1,41 @@
+{
+    "table_name": "media_type",
+    "column_info": [
+        {
+            "column_name": "media_type_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "name",
+            "data_type": "VARCHAR(120)",
+            "nullable": true,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "media_type_id": 1,
+            "name": "MPEG audio file"
+        },
+        {
+            "media_type_id": 2,
+            "name": "Protected AAC audio file"
+        },
+        {
+            "media_type_id": 3,
+            "name": "Protected MPEG-4 video file"
+        },
+        {
+            "media_type_id": 4,
+            "name": "Purchased AAC audio file"
+        },
+        {
+            "media_type_id": 5,
+            "name": "AAC audio file"
+        }
+    ]
+}

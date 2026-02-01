@@ -1,0 +1,53 @@
+{
+    "table_name": "album",
+    "column_info": [
+        {
+            "column_name": "album_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "title",
+            "data_type": "VARCHAR(160)",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "artist_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "album_id": 1,
+            "title": "For Those About To Rock We Salute You",
+            "artist_id": 1
+        },
+        {
+            "album_id": 2,
+            "title": "Balls to the Wall",
+            "artist_id": 2
+        },
+        {
+            "album_id": 3,
+            "title": "Restless and Wild",
+            "artist_id": 2
+        },
+        {
+            "album_id": 4,
+            "title": "Let There Be Rock",
+            "artist_id": 1
+        },
+        {
+            "album_id": 5,
+            "title": "Big Ones",
+            "artist_id": 3
+        }
+    ]
+}

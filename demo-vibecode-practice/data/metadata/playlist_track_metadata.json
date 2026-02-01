@@ -1,0 +1,41 @@
+{
+    "table_name": "playlist_track",
+    "column_info": [
+        {
+            "column_name": "playlist_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        },
+        {
+            "column_name": "track_id",
+            "data_type": "INTEGER",
+            "nullable": false,
+            "default": null,
+            "description": null
+        }
+    ],
+    "data_sample": [
+        {
+            "playlist_id": 1,
+            "track_id": 3402
+        },
+        {
+            "playlist_id": 1,
+            "track_id": 3389
+        },
+        {
+            "playlist_id": 1,
+            "track_id": 3390
+        },
+        {
+            "playlist_id": 1,
+            "track_id": 3391
+        },
+        {
+            "playlist_id": 1,
+            "track_id": 3392
+        }
+    ]
+}

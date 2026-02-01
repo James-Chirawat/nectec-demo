@@ -1,0 +1,189 @@
+{
+    "query_1": {
+        "query": "SELECT a.title, SUM(t.unit_price) as album_value\nFROM album a\nJOIN track t ON a.album_id = t.album_id\nGROUP BY a.album_id\nORDER BY album_value DESC\nLIMIT 5",
+        "data": [
+            {
+                "title": "Greatest Hits",
+                "album_value": 56.43
+            },
+            {
+                "title": "Lost, Season 3",
+                "album_value": 51.74
+            },
+            {
+                "title": "Lost, Season 1",
+                "album_value": 49.75
+            },
+            {
+                "title": "The Office, Season 3",
+                "album_value": 49.75
+            },
+            {
+                "title": "Lost, Season 2",
+                "album_value": 47.76
+            }
+        ]
+    },
+    "query_2": {
+        "query": "SELECT billing_country, SUM(total) as total_revenue, COUNT(invoice_id) as sales_count\nFROM invoice\nGROUP BY billing_country\nORDER BY total_revenue DESC",
+        "data": [
+            {
+                "billing_country": "USA",
+                "total_revenue": 523.06,
+                "sales_count": 91
+            },
+            {
+                "billing_country": "Canada",
+                "total_revenue": 303.96,
+                "sales_count": 56
+            },
+            {
+                "billing_country": "France",
+                "total_revenue": 195.1,
+                "sales_count": 35
+            },
+            {
+                "billing_country": "Brazil",
+                "total_revenue": 190.1,
+                "sales_count": 35
+            },
+            {
+                "billing_country": "Germany",
+                "total_revenue": 156.48,
+                "sales_count": 28
+            },
+            {
+                "billing_country": "United Kingdom",
+                "total_revenue": 112.86,
+                "sales_count": 21
+            },
+            {
+                "billing_country": "Czech Republic",
+                "total_revenue": 90.24,
+                "sales_count": 14
+            },
+            {
+                "billing_country": "Portugal",
+                "total_revenue": 77.24,
+                "sales_count": 14
+            },
+            {
+                "billing_country": "India",
+                "total_revenue": 75.26,
+                "sales_count": 13
+            },
+            {
+                "billing_country": "Chile",
+                "total_revenue": 46.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Ireland",
+                "total_revenue": 45.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Hungary",
+                "total_revenue": 45.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Austria",
+                "total_revenue": 42.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Finland",
+                "total_revenue": 41.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Netherlands",
+                "total_revenue": 40.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Norway",
+                "total_revenue": 39.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Sweden",
+                "total_revenue": 38.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Argentina",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Belgium",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Poland",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Australia",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Italy",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Denmark",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            },
+            {
+                "billing_country": "Spain",
+                "total_revenue": 37.62,
+                "sales_count": 7
+            }
+        ]
+    },
+    "query_3": {
+        "query": "SELECT \n    e.first_name || ' ' || e.last_name AS employee,\n    m.first_name || ' ' || m.last_name AS reports_to_manager\nFROM employee e\nLEFT JOIN employee m ON e.reports_to = m.employee_id",
+        "data": [
+            {
+                "employee": "Andrew Adams",
+                "reports_to_manager": null
+            },
+            {
+                "employee": "Nancy Edwards",
+                "reports_to_manager": "Andrew Adams"
+            },
+            {
+                "employee": "Jane Peacock",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Margaret Park",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Steve Johnson",
+                "reports_to_manager": "Nancy Edwards"
+            },
+            {
+                "employee": "Michael Mitchell",
+                "reports_to_manager": "Andrew Adams"
+            },
+            {
+                "employee": "Robert King",
+                "reports_to_manager": "Michael Mitchell"
+            },
+            {
+                "employee": "Laura Callahan",
+                "reports_to_manager": "Michael Mitchell"
+            }
+        ]
+    }
+}
